@@ -7,20 +7,22 @@ Amazing Prime loves the original dataset that was created and Britta needs assis
 
 Data Source:
 
-     * wikipedia-movies.json
-     * movies_metadata.csv; ratings.csv
+  * wikipedia-movies.json
+  * movies_metadata.csv; ratings.csv
 
-Code: 
-     * ETL_function_test.ipynb
-     * ETL_clean_wiki_movies.ipynb
-     * ETL_clean_kaggle_data.ipynb
-     * ETL_create_database.ipynb
+Code:
 
-Software: 
-     * Python 3.7.6
-     * Pandas 1.3.5
-     * Jupyter Notebook
-     * pgAdmin 6.1
+  * ETL_function_test.ipynb
+  * ETL_clean_wiki_movies.ipynb
+  * ETL_clean_kaggle_data.ipynb
+  * ETL_create_database.ipynb
+
+Software:
+
+  * Python 3.7.6
+  * Pandas 1.3.5
+  * Jupyter Notebook
+  * pgAdmin 6.1
 
 ## Creating an Automated Pipeline
 
