@@ -6,6 +6,7 @@ Amazing Prime loves the original dataset that was created and Britta needs assis
 ### Resources
 
 Data Source:
+
      * wikipedia-movies.json
      * movies_metadata.csv; ratings.csv
 
