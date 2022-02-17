@@ -31,7 +31,15 @@ The first step in this process was to write an ETL function that would read the 
 
 **wiki_movies_df DataFrame Output**
 
+![image](https://user-images.githubusercontent.com/94148420/154396076-81c272e6-0d39-4f40-9277-48fb7b5526d0.png)
 
+**kaggle_metadata Output**
+
+![image](https://user-images.githubusercontent.com/94148420/154396216-36e64987-099a-4a0e-9c1d-7d5183831e8d.png)
+
+**ratings DataFrame Output**
+
+![image](https://user-images.githubusercontent.com/94148420/154396735-b61c89c9-645b-46f4-a052-6c0f42011d1f.png)
 
 ### Extract and Transform the Wikipedia Data
 
