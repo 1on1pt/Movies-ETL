@@ -70,7 +70,7 @@ The ultimate output of this step is to merge the MovieLens rating DataFrame wiht
 
 ### Create the Movie Database
 
-The final step was to movies_df DataFrame MovieLens ratings CSV file to a SQL database.
+The final step was to load the movies_df DataFrame and MovieLens ratings CSV file into a SQL database.
 
 The movies table has 6052 rows:
 
