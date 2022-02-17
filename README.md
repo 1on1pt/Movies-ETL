@@ -43,15 +43,41 @@ The first step in this process was to write an ETL function that would read the 
 
 ### Extract and Transform the Wikipedia Data
 
+The next step was to extract and transform the Wikipedia data so that it could be merged with the Kaggle data.
 
+**wiki_movies_df DataFrame Output**
+
+![image](https://user-images.githubusercontent.com/94148420/154397821-c57c6edb-9e33-4d6b-b590-725b3922b2dd.png)
+
+**wiki_movies_df.columns.to_list() Output**
+
+![image](https://user-images.githubusercontent.com/94148420/154397934-4f11d937-1422-4b7b-a4e1-a6298c88d3ff.png)
 
 ### Extract and Transform the Kaggle Data
 
+The ultimate output of this step is to merge the MovieLens rating DataFrame wiht the movies_df DataFrame to create the movies_with_ratings_df.
 
+**movies_with_ratings_df.head() Output**
+
+![image](https://user-images.githubusercontent.com/94148420/154398472-54b5eb9d-21f1-408c-a8e9-026ffdc64ddd.png)
+
+**movies_df.head() Output**
+
+![image](https://user-images.githubusercontent.com/94148420/154398589-6b0de1c5-3614-4b1c-b259-28ee54c1250b.png)
 
 ### Create the Movie Database
+
+The final step was to movies_df DataFrame MovieLens ratings CSV file to a SQL database.
+
+The movies table has 6052 rows:
+
+![image](https://user-images.githubusercontent.com/94148420/154398931-733f6077-3f1a-4e40-8196-dc2f4514c989.png)
+
+The ratings table has 26,024,289 rows:
+
+![image](https://user-images.githubusercontent.com/94148420/154399048-b1b3b8a7-7ed4-4760-bf3e-0293d47ea484.png)
 
 
 ## Summary
 
-
+This was a very challenging project, but the final outcome for Amazing Prime was accomplished.  Three files were extracted, transformed, then ulitmately loaded into a SQL database.  The most challenging of these steps was the transformation of the data, where there was much thought put into the "cleaning" of the data.
