@@ -1,7 +1,7 @@
 # Movies-ETL
 
 ## Overview of the Project
-Amazing Primes loves the original dataset that was created and Britta needs help in developing an automated pipeline that will extract new data, transform this data, then load into existing tables.  This was accomplished by refactoring the original code to create one function that will take in the Wikipedia data, the Kaggle metadata, and the MovieLens rating data, perform the extract, transform, and load (ETL) process, the import to a PostgreSQL database.
+Amazing Primes loves the original dataset that was created and Britta needs assistance in developing an automated pipeline that will extract new data, transform this data, then load into existing tables.  This was accomplished by refactoring the original code to create one function that will take in the Wikipedia data, the Kaggle metadata, and the MovieLens rating data, perform the extract, transform, and load (ETL) process, the import to a PostgreSQL database.
 
 ### Resources
 
