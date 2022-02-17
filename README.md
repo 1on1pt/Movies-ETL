@@ -80,6 +80,10 @@ The ratings table has 26,024,289 rows:
 
 ![image](https://user-images.githubusercontent.com/94148420/154399048-b1b3b8a7-7ed4-4760-bf3e-0293d47ea484.png)
 
+The total elapsed time to load the data to the database:
+
+![image](https://user-images.githubusercontent.com/94148420/154403179-e83784fb-18b5-479e-b9e9-ed228d8ad8f5.png)
+
 
 ## Summary
 
